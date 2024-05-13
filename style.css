@@ -1,27 +1,30 @@
 body {
     font-family: sans-serif;
     text-align: center;
-    background-color: #f0f0f0;
-  }
+    background: linear-gradient(to bottom right, #007bff, #28a745); /* Your gradient */
+    h2 {
+        font-family: 'Luckiest Guy', cursive; /* Apply the font */
+        color: white;                         /* Set text color to white */
+        font-size: 5vw;
+        }
+      
+    }
+
   
   .container {
-    display: flex; /* Use Flexbox for better layout control */
-    flex-direction: column; /* Arrange items vertically by default */
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto; /* Center the container */
   }
   
   .link-button {
-    display: block;
-    width: 80%; /* Make buttons take up most of the container width */
-    max-width: 300px; /* Set a maximum width to prevent them from getting too wide */
+    width: 50%;
+    max-width: 300px;
     padding: 15px;
-    margin-bottom: 10px;
+    margin: 10px auto; /* Center buttons horizontally */
     text-align: center;
     text-decoration: none;
     color: white;
@@ -39,17 +42,5 @@ body {
   
   .twitter {
     background-color: #1da1f2;
-  }
-  
-  /* Responsive Styles */
-  @media (max-width: 600px) {
-    .container {
-      flex-direction: column; /* Stack items vertically on small screens */
-    }
-  
-    .link-button {
-      width: 90%; /* Adjust width for smaller screens */
-      font-size: 14px;
-    }
   }
   
