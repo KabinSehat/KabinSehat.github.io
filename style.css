@@ -1,12 +1,16 @@
 body {
     font-family: sans-serif;
     text-align: center;
-    background: linear-gradient(to bottom right, #007bff, #28a745); /* Your gradient */
+    background: linear-gradient(90deg, #197FA0, #3D85C6);
     h2 {
         font-family: 'Luckiest Guy', cursive; /* Apply the font */
         color: white;                         /* Set text color to white */
         font-size: 5vw;
         }
+        @media (max-width: 768px) {
+            /* Styles for screens smaller than or equal to 768px */
+          }
+          
       
     }
 
